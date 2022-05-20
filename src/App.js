@@ -1,4 +1,6 @@
 import "./App.css";
+import CustomHookExample2 from "./components/CustomHookExample2";
+
 import FetchDataWithUSeFetch from "./components/FetchDataWithUSeFetch";
 import PrevState from "./components/PrevState";
 import UseRefExample1 from "./components/UseRefExample1";
@@ -14,6 +16,7 @@ function App() {
       <PrevState />
       <UseRefMemoryLeak />
       <FetchDataWithUSeFetch />
+      <CustomHookExample2 />
     </div>
   );
 }
