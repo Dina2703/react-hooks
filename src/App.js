@@ -1,4 +1,5 @@
 import "./App.css";
+import FetchDataWithUSeFetch from "./components/FetchDataWithUSeFetch";
 import PrevState from "./components/PrevState";
 import UseRefExample1 from "./components/UseRefExample1";
 import UserefExample2 from "./components/UserefExample2";
@@ -12,6 +13,7 @@ function App() {
       <UserefExample2 />
       <PrevState />
       <UseRefMemoryLeak />
+      <FetchDataWithUSeFetch />
     </div>
   );
 }
