@@ -6,10 +6,11 @@ import PrevState from "./components/PrevState";
 import UseRefExample1 from "./components/UseRefExample1";
 import UserefExample2 from "./components/UserefExample2";
 import UseRefMemoryLeak from "./components/UseRefMemoryLeak";
+import MyExampleUseref from "./components/MyExampleUseref";
 
 function App() {
   return (
-    <div className="container mt-5">
+    <div className="container my-5">
       <h3>More Advanced React Hooks</h3>
       <UseRefExample1 />
       <UserefExample2 />
@@ -17,6 +18,7 @@ function App() {
       <UseRefMemoryLeak />
       <FetchDataWithUSeFetch />
       <CustomHookExample2 />
+      <MyExampleUseref />
     </div>
   );
 }
